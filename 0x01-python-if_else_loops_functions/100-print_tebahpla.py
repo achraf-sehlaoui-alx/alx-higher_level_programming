@@ -3,4 +3,4 @@ for i in range(25, -1, -1):
     c = i + ord('A')
     if i % 2 == 1:
         i = i + 32
-    print("{:c}".format(i), end="")
+    print("{:c}".format(c), end="")
